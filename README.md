@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+# Pulse Design
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pulse Design 是一个现代化的 React 组件库，旨在帮助开发者快速构建美观、可定制的用户界面。
 
-## Available Scripts
+"Pulse" 在英文中表示脉搏或脉动，常用来形容生命的活力和节奏感。在 Pulse Design 中，"Pulse" 代表着组件库所传达的活力、创造力和动感。设计是一种表达和传达信息的艺术，而“Pulse”则象征着设计的脉动和生命力，体现了组件库所追求的创新、活力和用户体验。
 
-In the project directory, you can run:
+## 功能介绍
 
-### `yarn start`
+- **丰富的组件库**：Pulse Design 提供了多样化的 React 组件，包括按钮、表单、模态框、导航、卡片、图表等，满足各种界面构建需求，同时支持自定义组件。
+- **主题定制**：支持灵活的主题定制，用户可以根据需求定制主题色、字体样式、边框风格等，轻松打造符合品牌风格的界面。
+- **响应式设计**：组件库经过精心设计，能够自适应不同屏幕尺寸和设备，确保用户在桌面、平板和手机等设备上获得一致的用户体验。
+- **组件交互**：提供丰富的交互功能，如动画效果、拖拽排序、表单验证等，增强用户与界面的互动体验。
+- **文档和示例**：详细的文档和丰富的示例帮助开发者快速上手，快速了解如何使用组件库，节省开发时间。
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 安装
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+通过 npm 安装 Pulse Design：
 
-### `yarn test`
+```bash
+npm install @your-username/pulse-design
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 使用示例
 
-### `yarn build`
+```jsx
+import React from 'react';
+import { Button, Card } from '@your-username/pulse-design';
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+const App = () => {
+  return (
+    <div>
+      <Button variant="primary">Click me</Button>
+      <Card title="Example Card">
+        <p>This is an example card content.</p>
+      </Card>
+    </div>
+  );
+};
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+export default App;
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 文档和示例
 
-### `yarn eject`
+查看完整文档和示例：[Pulse Design 文档](https://your-documentation-url)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 贡献
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+欢迎贡献代码、报告问题或提出建议。请阅读贡献指南以获取更多信息。
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 版本历史
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+查看版本历史和更新内容：[版本历史](https://github.com/your-username/pulse-design/releases)
 
-## Learn More
+## 许可证
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+本项目基于 MIT 许可证。详情请参阅 LICENSE 文件。
