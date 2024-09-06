@@ -25,7 +25,7 @@ Primary.args = {
 
 const style={
   marginLeft: 8
-}
+};
 
 export const Basic = () => {
   return <>
@@ -35,8 +35,8 @@ export const Basic = () => {
     <br />
     <Button type="text">Text Button</Button>
     <Button type="link" style={style}>Link Button</Button>
-  </>
-}
+  </>;
+};
 
 export const Secondary = Template.bind({});
 Secondary.args = {
